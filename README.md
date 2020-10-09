@@ -1,5 +1,13 @@
+Exercices pratiques libres sur le Module 2 Régression linéaire II :
 Croissance de la coquille d’escargots géants d’Afrique
 ================
+
+# Avant-propos
+
+Cette séance d’exercices est en cours de développement. N’hésitez pas à
+vérifier le lien suivant afin de voir si des modifications n’ont pas été
+apportées dans les consignes :
+<https://github.com/BioDataScience-Course/B02Gb_achatina>
 
 # Introduction
 
@@ -10,34 +18,39 @@ Croissance de la coquille d’escargots géants d’Afrique
 
 Le jeu de données `achatina` comprend les variables suivantes :
 
-  - coils : nombre de tours de coquille (sans unité)
-  - shell : rayon de la suture mesuré depuis le point de référence
+  - `coils` : nombre de tours de coquille (sans unité)
+  - `shell` : rayon de la suture mesuré depuis le point de référence
     (apex) en mm
 
 Que l’on peut visualiser dans le graphique ci-dessous.
 
 ![](README_files/figure-gfm/unnamed-chunk-1-1.png)<!-- -->
 
-Employez la régression linaire afin de modéliser la croissance de la
-coquille de ces animaux.
+Utilisez les différentes notions sur la régression linaire vues dans les
+modules 1 et 2 afin de modéliser la croissance de la coquille de ces
+animaux.
+
+N’hésitez pas à diviser votre analyse en 2 parties si nécessaire
+(protoconch et teleoconch).
 
 # Objectif
 
-Réalisez un document de type rapport scientifique avec les différentes
-parties que comprends généralement un rapport scientifique :
+Ce projet est un projet **individuel**, **court** et **libre** qui doit
+être **terminé pour la fin du module 2**.
 
-  - Introcduction
+Réalisez un document de type rapport scientifique dans lequel on doit
+retrouver les différentes parties qui constituent généralement un
+rapport scientifique :
+
+  - Introduction (sommaire)
   - But
   - M\&M (sommaire)
   - Résultats et discussion
   - Conclusion
 
-N’hésitez pas à diviser votre analyse en 2 parties (protoconch et
-teleoconch).
-
 # Note
 
-Les données de cee projet ont été employées dans le cadre de la
+Les données de ce projet ont été employées dans le cadre de la
 publication de Van Osselaer et Grosjean (2000).
 
 # Références
